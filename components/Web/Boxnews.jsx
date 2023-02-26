@@ -1,8 +1,9 @@
 import React from 'react';
 import Image from 'next/image'
+import Link from 'next/link';
 const Boxnews = () => {
    return (
-      <div className='max-w-[1240px] mx-auto py-16 text-center'>
+      <div className='max-w-[1240px] mx-auto py-16'>
          <h1 className='font-bold text-2xl p-4'>Tin tức...</h1>
          <div className='grid grid-rows-none md:grid-cols-5 p-4 gap-4'>
             <div className='w-full h-full col-span-2 md:col-span-3 row-span-2 relative'>
@@ -13,13 +14,8 @@ const Boxnews = () => {
                   height='451'
                />
                <div className='desc_main_news'>
-                  <div className='relative'>
-                     <div className='bg'></div>
-                     <div className='text'>
-                        <a href='#1'>1001 kinh nghiệm cải tạo nhà cũ thành nhà mới của một “phù thủy” gia</a>
-                        <div className='desc'>Cải tạo nhà cũ - câu chuyện tưởng xưa như diễm nhưng vẫn là vấn đề vô cùng “nhức nhối”. Nếu bạn cũng đang gặp khó khăn thì hãy nghe các “phù thủy” gia của chúng tôi tư vấn kinh nghiệm cải tạo nhà cũ thành nhà mới phía dưới nhé.</div>
-                     </div>
-                  </div>
+                  <Link className='font-bold text-2xl' href='newsdetail'>1001 kinh nghiệm cải tạo nhà cũ thành nhà mới của một “phù thủy” gia</Link>
+                  <div className='desc'>Cải tạo nhà cũ - câu chuyện tưởng xưa như diễm nhưng vẫn là vấn đề vô cùng “nhức nhối”. Nếu bạn cũng đang gặp khó khăn thì hãy nghe các “phù thủy” gia của chúng tôi tư vấn kinh nghiệm cải tạo nhà cũ thành nhà mới phía dưới nhé.</div>
                </div>
             </div>
             <div className='w-full h-full hover01'>
