@@ -86,3 +86,17 @@ html {
    color: #6c757d;
    content: "/";
 }
+.copyright {
+   text-align: center;
+   font-weight: 400;
+   font-size: 14px;
+   padding: 20px 0;
+}
+.fables-main-background-color {
+   background-color: #2c3e4f !important;
+}
+.fables-footer-image {
+    background-image: url(https://quiz.edu.vn/public/temp/fables-master/assets/custom/images/footer-back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

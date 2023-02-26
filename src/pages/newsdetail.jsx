@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from 'components/Web/Header'
+import Footer from 'components/Web/Footer'
 const newsdetail = () => {
    return (
       <div>
@@ -12,17 +13,17 @@ const newsdetail = () => {
                </ol>
             </div>
          </div>
-         <div className="grid grid-cols-3 gap-4">
-            <div className="col-span-2 md:col-span-2 lg:col-span-2 xl:col-span-2 2xl:col-span-2">
-               cột trái
-            </div>
-            <div className="col-span-1 md:col-span-1 lg:col-span-1 xl:col-span-1 2xl:col-span-1">
-               cột phải
+         <div className='max-w-[1240px] m-auto'>
+            <div class="grid grid-cols-3 gap-4">
+               <div class="...">01</div>
+               <div class="...">02</div>
+               <div class="...">03</div>
+               <div class="col-span-2 ...">04</div>
+               <div class="...">05</div>
+               <div class="...">06</div>
+               <div class="col-span-2 ...">07</div>
             </div>
          </div>
-
-
-
          <div className='max-w-[1240px] m-auto'>
             <div class="flex flex-col lg:flex-row">
                <div class="w-8">
@@ -40,6 +41,7 @@ const newsdetail = () => {
                </div>
             </div>
          </div>
+         <Footer />
       </div>
    )
 }

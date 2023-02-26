@@ -1,9 +1,46 @@
 import React from 'react'
-
+import { AiFillGooglePlusSquare, AiFillFacebook, AiFillInstagram, AiFillTwitterSquare } from 'react-icons/ai';
+import Link from 'next/link';
 
 const Footer = () => {
   return (
     <>
+      <div className='max-w-[1240px] m-auto'>
+        <div class="flex flex-row">
+          <div class="asis-1/3">
+            <Link href="#" className="font-bold text-4xl">Logo</Link>
+            <p className="text-xs"> t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.
+              <br /><br />
+              t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+            </p>
+          </div>
+          <div class="asis-1/3">
+            <h2 class="font-20 semi-font fables-second-border-color border-bottom pb-3">Contact us</h2>
+            <div class="my-3">
+              <h4 class="font-16 semi-font"><span class="fables-iconmap-icon fables-second-text-color pr-2 font-20 mt-1 d-inline-block"></span> Address Information</h4>
+              <p class="font-14 fables-fifth-text-color mt-2 ml-4">level13, 2Elizabeth St, Melbourne, Victor 2000</p>
+            </div>
+            <div class="my-3">
+              <h4 class="font-16 semi-font"><span class="fables-iconphone fables-second-text-color pr-2 font-20 mt-1 d-inline-block"></span> Call Now </h4>
+              <p class="font-14 fables-fifth-text-color mt-2 ml-4">+333 111 111 000</p>
+            </div>
+            <div class="my-3">
+              <h4 class="font-16 semi-font"><span class="fables-iconemail fables-second-text-color pr-2 font-20 mt-1 d-inline-block"></span> Mail </h4>
+              <p class="font-14 fables-fifth-text-color mt-2 ml-4">adminsupport@website.com</p>
+            </div>
+          </div>
+          <div class="asis-1/3">
+            <ul>
+              <li><Link href=''>About Us</Link></li>
+              <li><Link href=''>Contact Us</Link></li>
+              <li><Link href=''>Gallery</Link></li>
+              <li><Link href=''>Team</Link></li>
+              <li><Link href=''>Blog</Link></li>
+              <li><Link href=''>Testimonials</Link></li>
+            </ul>
+          </div>
+        </div>
+      </div>
       <div className="fables-footer-image fables-after-overlay white-color py-4 py-lg-5 bg-rules">
         <div className="container">
           <div className="row">
@@ -54,16 +91,14 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="copyright fables-main-background-color mt-0 border-0 white-color">
-        <ul className="nav fables-footer-social-links just-center fables-light-footer-links">
-          <li><a href="#" target="_blank"><i className="fab fa-google-plus-square"></i></a></li>
-          <li><a href="#" target="_blank"><i className="fab fa-facebook"></i></a></li>
-          <li><a href="#" target="_blank"><i className="fab fa-instagram"></i></a></li>
-          <li><a href="#" target="_blank"><i className="fab fa-pinterest-square"></i></a></li>
-          <li><a href="#" target="_blank"><i className="fab fa-twitter-square"></i></a></li>
-          <li><a href="#" target="_blank"><i className="fab fa-linkedin"></i></a></li>
+      <div className="copyright fables-main-background-color mt-0 border-0 text-white">
+        <ul className="flex items-center justify-center">
+          <li className='m-1'><a href="#" target="_blank"><AiFillGooglePlusSquare size={20} /></a></li>
+          <li className='m-1'><a href="#" target="_blank"><AiFillFacebook size={20} /></a></li>
+          <li className='m-1'><a href="#" target="_blank"><AiFillInstagram size={20} /></a></li>
+          <li className='m-1'><a href="#" target="_blank"><AiFillTwitterSquare size={20} /></a></li>
         </ul>
-        <p className="mb-0">Copyright © Fables 2018. All rights reserved.</p>
+        <p className="text-xs">Copyright © Fables 2018. All rights reserved.</p>
 
       </div>
     </>
