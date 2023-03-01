@@ -14,19 +14,8 @@ const newsdetail = () => {
             </div>
          </div>
          <div className='max-w-[1240px] m-auto'>
-            <div class="grid grid-cols-3 gap-4">
-               <div class="...">01</div>
-               <div class="...">02</div>
-               <div class="...">03</div>
-               <div class="col-span-2 ...">04</div>
-               <div class="...">05</div>
-               <div class="...">06</div>
-               <div class="col-span-2 ...">07</div>
-            </div>
-         </div>
-         <div className='max-w-[1240px] m-auto'>
-            <div class="flex flex-col lg:flex-row">
-               <div class="w-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+               <div class="col-12 col-lg-4 mb-4 mb-lg-0">
                   <p className="font-14 my-3">
                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis iaculis egestas nisl vel faucibus. Pellentesque ac dapibus orci. In aliquam nisi at est posuere ornare. Aliquam scelerisque magna a turpis mollis, eu interdum enim commodo. In quis tellus consequat, vehicula nunc pretium, gravida mauris. In commodo convallis massa, sit amet gravida erat dictum vitae. Etiam sollicitudin leo ut quam egestas,
                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis iaculis egestas nisl vel faucibus. Pellentesque ac dapibus orci. In aliquam nisi at est posuere ornare. Aliquam scelerisque magna a turpis mollis, eu interdum enim commodo. In quis tellus consequat, vehicula nunc pretium, gravida mauris. In commodo convallis massa, sit amet gravida erat dictum vitae. Etiam sollicitudin leo ut quam egestas,
@@ -36,9 +25,7 @@ const newsdetail = () => {
                      . Aliquam scelerisque magna a turpis mollis, eu interdum enim commodo. In quis tellus consequat, vehicula nunc pretium, gravida mauris. In commodo convallis massa, sit amet gravida erat dictum vitae. Etiam sollicitudin leo ut quam egestas, ullamcorper placerat nunc facilisis. Nunc iaculis, lorem euismod euismod venenatis, magna leo euismod felis, et laoreet velit lacus ac nisl lorem euismod euismod venenatis.Lorem ipsum dolor sit amet, consectetur adipiscing
                   </p>
                </div>
-               <div class="w-4">
-                  dung của cột phải
-               </div>
+               <div class="col-12 col-sm-6 col-lg-4">dung của cột phải</div>
             </div>
          </div>
          <Footer />
