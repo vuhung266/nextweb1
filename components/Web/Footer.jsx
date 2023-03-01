@@ -1,10 +1,12 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGoogle } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
   return (
     <>
-      <div className="fables-footer-image fables-after-overlay white-color py-8 py-lg-5 bg-rules">
-        <div className="container m-auto">
+      <div className="fables-footer-image fables-after-overlay text-white py-8 py-lg-5 bg-rules">
+        <div className="container m-auto relative z-50">
           <div className="col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3 mt-2 mb-5 text-center">
             <h2 className="font-30 semi-font pb-8 text-4xl">Newsletter</h2>
             <form className="form-inline position-relative">
@@ -102,11 +104,11 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="copyright fables-main-background-color mt-0 border-0 white-color">
+      <div className="copyright fables-main-background-color mt-0 border-0 text-white">
         <ul className="nav fables-footer-social-links just-center fables-light-footer-links">
           <li>
             <a href="#" target="_blank">
-              <i className="fab fa-google-plus-square"></i>
+              <FontAwesomeIcon icon="fab fa-google-plus" />
             </a>
           </li>
           <li>

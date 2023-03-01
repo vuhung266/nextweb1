@@ -20,39 +20,39 @@ const Boxnews = () => {
             </div>
             <div className='w-full h-full hover01'>
                <figure><Image
-                  src='https://images.unsplash.com/photo-1540390769625-2fc3f8b1d50c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2128&q=80'
+                  src='https://images.unsplash.com/photo-1540390769625-2fc3f8b1d50c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80'
                   alt='/'
-                  width='255'
-                  height='217'
+                  width='720'
+                  height='451'
                /></figure>
-               <div className='textnews'><a href='#1'>Những sai lầm ngớ ngẩn thường gặp trước khi thiết kế nội thất phòng khách chung cư</a></div>
+               <div className='textnews'><a href='#1' className='linkinboxnew'>Những sai lầm ngớ ngẩn thường gặp trước khi thiết kế nội thất phòng khách chung cư</a></div>
             </div>
             <div className='w-full h-full hover01'>
                <figure><Image
-                  src='https://images.unsplash.com/photo-1472791108553-c9405341e398?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2437&q=80'
+                  src='https://images.unsplash.com/photo-1472791108553-c9405341e398?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80'
                   alt='/'
-                  width='255'
-                  height='217'
+                  width='720'
+                  height='451'
                /></figure>
-               <div className='textnews'><a href='#1'>Những sai lầm ngớ ngẩn thường gặp trước khi thiết kế nội thất phòng khách chung cư</a></div>
+               <div className='textnews'><a href='#1' className='linkinboxnew'>Những sai lầm ngớ ngẩn thường gặp trước khi thiết kế nội thất phòng khách chung cư</a></div>
             </div>
             <div className='w-full h-full hover01'>
                <figure><Image
                   src='https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80'
                   alt='/'
-                  width='255'
-                  height='217'
+                  width='720'
+                  height='451'
                /></figure>
-               <div className='textnews'><a href='#1'>Những sai lầm ngớ ngẩn thường gặp trước khi thiết kế nội thất phòng khách chung cư</a></div>
+               <div className='textnews'><a href='#1' className='linkinboxnew'>Những sai lầm ngớ ngẩn thường gặp trước khi thiết kế nội thất phòng khách chung cư</a></div>
             </div>
             <div className='w-full h-full hover01'>
                <figure><Image
-                  src='https://images.unsplash.com/photo-1469362102473-8622cfb973cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2419&q=80'
+                  src='https://images.unsplash.com/photo-1469362102473-8622cfb973cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80'
                   alt='/'
-                  width='255'
-                  height='217'
+                  width='720'
+                  height='451'
                /></figure>
-               <div className='textnews'><a href='#1'>Những sai lầm ngớ ngẩn thường gặp trước khi thiết kế nội thất phòng khách chung cư</a></div>
+               <div className='textnews'><a href='#1' className='linkinboxnew'>Những sai lầm ngớ ngẩn thường gặp trước khi thiết kế nội thất phòng khách chung cư</a></div>
             </div>
          </div>
       </div>
