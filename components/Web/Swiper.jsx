@@ -41,7 +41,7 @@ const MySwiper = () => {
                spaceBetween={50}
                slidesPerView={3}
             >
-               <SwiperSlide><Image src={IgImg1} alt='/' className='w-full h-full' /></SwiperSlide>
+               <SwiperSlide><Image src={IgImg1} alt='/' className='w-full h-full' width='200' height='100'/></SwiperSlide>
                <SwiperSlide><Image src={IgImg2} width='100' height='100' alt='/' className='w-full h-full' /></SwiperSlide>
                <SwiperSlide><Image src={IgImg3} width='100' height='100' alt='/' className='w-full h-full' /></SwiperSlide>
                <SwiperSlide><Image src={IgImg4} width='100' height='100' alt='/' className='w-full h-full' /></SwiperSlide>
