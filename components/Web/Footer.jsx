@@ -20,8 +20,8 @@ const Footer = () => {
               </button>
             </form>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="col-12 col-lg-4 mb-4 mb-lg-0">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 p-4">
+            <div className="col-12 col-lg-4 mb-4 mb-lg-0 ">
               <a
                 href="#"
                 className="fables-second-border-color border-bottom pb-3 d-block mb-3 mt-minus-13  border-b-red-500 border-b border-solid block"
