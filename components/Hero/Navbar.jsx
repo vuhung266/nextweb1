@@ -28,7 +28,7 @@ const Navbar = () => {
 
    return (
       <div>
-         <div style={{ backgroundColor: `${color}` }} className='fixed left-0 top-0 w-full z-10 ease-in duration-300'>
+         <div style={{ backgroundColor: `${color}` }} className='fixed left-0 top-0 w-full z-50 ease-in duration-300'>
             <div style={{ color: `${textColor}` }} className='max-w-[1240px] m-auto flex justify-between items-center p-4'>
                <Link href='/'>
                   <h1 style={{ color: `${textColor}` }} className='font-bold text-4xl'>Logo</h1>
