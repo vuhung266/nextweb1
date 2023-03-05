@@ -7,6 +7,7 @@ module.exports = {
   images:{
     domains:[
       'images.unsplash.com',
+      'quiz.edu.vn',
     ]
   }
 }

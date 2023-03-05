@@ -88,6 +88,11 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.bg-customsay {
+  background-image: url(https://quiz.edu.vn/public/temp/fables-master/assets/custom/images/index-testimonial.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .copyright {
   text-align: center;
   font-weight: 400;
