@@ -17,7 +17,7 @@ const Boxnews = () => {
             height="451"
           />
           <div className="desc_main_news">
-            <Link className="font-bold text-2xl" href="newsdetail">
+            <Link className="font-bold text-2xl" href="#1">
               1001 kinh nghiệm cải tạo nhà cũ thành nhà mới của một “phù thủy”
               gia
             </Link>

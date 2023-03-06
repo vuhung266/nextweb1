@@ -3,14 +3,22 @@ import React from "react";
 import Header from "components/Web/Header";
 import Footer from "components/Web/Footer";
 import data from "./../api/data";
-import * as libs from "./../../utils/custom";
+import { getLastString, convertToSlug } from "./../../utils/custom";
 import Link from "next/link";
 
-function NewsDetail() {
-  const router = useRouter();
-  const { id } = router.query;
-  const lastString = libs.getLastString(id);
+export async function getServerSideProps(context) {
+  const { id } = context.query;
+  const lastString = getLastString(id);
   const result = data.find((item) => item.id == lastString);
+  return {
+    props: {
+      result,
+    },
+  };
+}
+
+function NewsDetail({ result }) {
+  const router = useRouter();
   return (
     <div>
       <Header heading="Chi tiết tin" />
@@ -47,8 +55,7 @@ function NewsDetail() {
                   <div className="col-span-1">
                     <Link
                       prefetch={false}
-                      priority={true}
-                      href={`${libs.convertToSlug(item.title) + `-${item.id}`}`}
+                      href={`${convertToSlug(item.title) + `-${item.id}`}`}
                     >
                       <img src={item.image} alt="" className="w-100" />
                     </Link>
@@ -56,15 +63,11 @@ function NewsDetail() {
                   <div className="col-span-2">
                     <Link
                       prefetch={false}
-                      priority={true}
-                      href={`${libs.convertToSlug(item.title) + `-${item.id}`}`}
+                      href={`${convertToSlug(item.title) + `-${item.id}`}`}
                       className="fables-main-text-color bold-font fables-second-hover-color"
                     >
                       {item.title}
                     </Link>
-                    <p className="fables-forth-text-color fables-blog-date-cat font-14 mt-1">
-                      09 November, 2018
-                    </p>
                   </div>
                 </div>
               ))}
