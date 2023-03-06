@@ -8,6 +8,7 @@ module.exports = {
     domains:[
       'images.unsplash.com',
       'quiz.edu.vn',
+	  'blogcdn.muaban.net',
     ]
   }
 }

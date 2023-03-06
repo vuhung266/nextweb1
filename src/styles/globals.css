@@ -5,7 +5,8 @@
 html {
   scroll-behavior: smooth;
   /* font-family: "Raleway", sans-serif; */
-  font-family: 100% Roboto,"SF Pro Display","Helvetica Neue",Helvetica,Roboto,Arial;
+  font-family: 100% Roboto, "SF Pro Display", "Helvetica Neue", Helvetica,
+    Roboto, Arial;
 }
 .relative {
   position: relative;
@@ -121,4 +122,19 @@ html {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: normal;
+}
+.content-news h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 24px;
+  margin-bottom: 14px;
+}
+.content-news h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 24px;
+  margin-bottom: 14px;
+}
+.content-news img {
+	margin-bottom: 16px;
 }
