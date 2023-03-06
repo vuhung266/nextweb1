@@ -32,7 +32,7 @@ const data = [
   },
   {
     id: 4456,
-    title: "Chiêm ngưỡng 50+ mẫu thiết kế nhà đẹp nhất 2023",
+    title: "Chiêm ngưỡng 50+ mẫu thiết kế nhà đẹp nhất 2023 ",
     description:
       "Thiết kế nhà là một giai đoạn quan trọng. Từ trước đến nay, nhà luôn được coi là một tài sản quan trọng trong cuộc sống của mỗi gia đình. Xây dựng một cơ ngơi đòi hỏi một quá trình công phu. Trong đó, công đoạn thiết kế là bước đầu tiên và có vai trò quyết định kiến trúc của ngôi nhà. Vậy đâu là những mẫu thiết kế nhà đẹp đang được ưa chuộng nhất hiện nay? Cùng Muaban.net tìm hiểu qua bài viết này nhé!",
     image:
