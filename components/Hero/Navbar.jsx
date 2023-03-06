@@ -35,7 +35,7 @@ const Navbar = () => {
                </Link>
                <ul className='hidden sm:flex'>
                   <li>
-                     <Link className='p-4' href='/'>Home</Link>
+                     <Link className='p-4' href='/'>Trang chủ</Link>
                   </li>
                   <li>
                      <Link className='p-4' href='/#gallery'>Gallery</Link>
@@ -44,7 +44,7 @@ const Navbar = () => {
                      <Link className='p-4' href='/work'>Work</Link>
                   </li>
                   <li>
-                     <Link className='p-4' href='/contact'>Contact</Link>
+                     <Link className='p-4' href='/contact'>Liên hệ</Link>
                   </li>
                </ul>
 

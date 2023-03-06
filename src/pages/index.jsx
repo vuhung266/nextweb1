@@ -10,7 +10,7 @@ import React from 'react'
 const work = () => {
    return (
       <div>
-         <Hero heading='My Work' message='This is some of my recent work traveling the world.' />
+         <Hero heading='Hi there' message='This is some of my recent work traveling the world.' />
          <MySwiper />
          <Boxnews />
          <CustomSay />

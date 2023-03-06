@@ -18,12 +18,12 @@ function NewsDetail() {
         <div className="max-w-[1240px] m-auto">
           <ol className="flex py-3 mb-12">
             <li className="breadcrumb-item">
-              <a href="#" className="fables-second-text-color">
-                Home
-              </a>
+              <Link href="/" className="fables-second-text-color">
+                Trang chủ
+              </Link>
             </li>
             <li className="breadcrumb-item active" aria-current="page">
-              Blog Single img
+              Chi tiết tin
             </li>
           </ol>
         </div>
