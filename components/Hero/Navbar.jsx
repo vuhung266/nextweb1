@@ -38,7 +38,7 @@ const Navbar = () => {
                      <Link className='p-4' href='/'>Trang chủ</Link>
                   </li>
                   <li>
-                     <Link className='p-4' href='/#gallery'>Gallery</Link>
+                     <Link className='p-4' href='/category/tat-ca'>Tin tức</Link>
                   </li>
                   <li>
                      <Link className='p-4' href='/work'>Work</Link>

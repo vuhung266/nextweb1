@@ -38,7 +38,7 @@ const Boxnews = () => {
               <div className="textnews">
                 <Link
                   href={`reading/${libs.convertToSlug(item.title)+`-${item.id}`}`}
-                  className="linkinboxnew"
+                  className="hover:text-red-600"
                 >
                   {item.title}
                 </Link>
